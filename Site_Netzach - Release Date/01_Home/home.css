@@ -1,0 +1,124 @@
+:root {
+    --primeira-cor: #3db6e5;
+    --segunda-cor: #ebea52;
+    --terceira-cor: #2d8c2a;
+    --background-cor: #092635;
+    --fonte-site: 'Rubik', sans-serif;
+    --transition05: 0.5s;
+    --transition1: 1s;
+    --transition15: 1.5s;
+}
+
+/* * {
+    padding: 10px;
+    background-color: var(--background-cor);
+    box-sizing: inherit;
+} */
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--background-cor);
+}
+
+.image_nav{
+    max-width: 300px;
+    position: fixed;
+    top: 5rem;
+    left: 50rem;
+    right: 50rem;
+    bottom: 70rem;
+    margin: 10px 10px 10px 10px;
+}
+
+/* .movie_institucuinal {
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+    position: fixed;
+    top: 20rem;
+    left: 20rem;
+    right: 20rem;
+    bottom: 30rem;
+} */
+
+.rodape_sociais {
+    border: 10px 10px 10px 10px;
+    display: flex;
+    flex-basis: auto;
+    padding: 20px;
+    margin: 20px;
+    position: absolute;
+    top: 40rem;
+    left: 45rem;
+    right: 45rem;
+    bottom: 50rem;
+}
+
+.rodape_sociais_links {
+    border: 10px 10px 10px 10px;
+    width: 100px;
+    height: 90px;
+    padding: 0px;
+    border: 0px;
+    max-width: 100px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    filter: invert(100%);
+    background-repeat: no-repeat;
+}
+
+.rodape_sociais_links:hover {
+    border: 10px 10px 10px 10px;
+    width: 100px;
+    height: 90px;
+    padding: 0px;
+    border: 0px;
+    max-width: 350px;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: invert(0%);
+    color: var(--primeira-cor);
+}
+
+.site_developed {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.site_by {
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--fonte-site);
+    color: white;
+    position: absolute;
+    top: 52rem;
+    right: 50rem;
+    left: 50rem;
+    padding: 0;
+    margin: auto;
+}
+
+.site_by_link {
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--fonte-site);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.site_by_link:hover {
+    text-decoration: none;
+    text-align: center;
+    font-family: var(--fonte-site);
+    color: var(--primeira-cor);
+    transition: var(--transition05);
+    font-size: larger;
+    padding: 0;
+    margin: 0;
+}
